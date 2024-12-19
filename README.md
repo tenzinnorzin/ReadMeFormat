@@ -3,7 +3,7 @@
 
 <!-- PROJECT LOGO --> 
 <br /> 
-<div align="center"> <h3 align="center">HyphenView</h3> 
+<div align="center"> <h1 align="center">HyphenView</h1> 
 <p align="center"> A modern React-based web application for data visualization and management. 
 <br /> 
 </div> 
