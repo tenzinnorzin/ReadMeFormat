@@ -54,80 +54,90 @@ Ensure you have the following installed:
 * NVM (Node Version Manager)
   
 ## Installation
-Clone the Repository
+### 1. Clone the Repository
 
   ```sh
   git clone <repository_url>
   cd HyphenView
   ```
 
-Python Environment Setup
+## Installation
+### 1. Clone the Repository
+
+```sh
+  git clone <repository_url>
+  cd HyphenView
+  ```
+
+### 2. Python Environment Setup
 
 Install Python and pip:
-bash
-Copy code
+```sh
 sudo apt install -y python3.11 python3-pip
+```
+
 Install project dependencies:
-bash
-Copy code
+```sh
 pip3 install -r requirements.txt
-Database Setup
+```
+
+### 3. Database Setup
 
 Install MySQL server and client:
-bash
-Copy code
+```sh
 sudo apt install -y mysql-server mysql-client
+```
+
 Import the database schema:
-bash
-Copy code
+```sh
 mysql -u root -p hyphenview_schema < /path/to/hyphenview_dump.sql
-Node.js and React Setup
+```
+
+### 4. Node.js and React Setup
 
 Install NVM:
-bash
-Copy code
+```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 source ~/.nvm/nvm.sh
+```
+
 Install Node.js and npm:
-bash
-Copy code
+```sh
 nvm install 20.5.0
 nvm use 20.5.0
+```
+
 Navigate to the React application directory:
-bash
-Copy code
+```sh
 cd HyphenView/HyphenView
+```
+
 Update .env with the machine’s IP:
-env
-Copy code
+```sh
 REACT_APP_API_URL=http://<your_machine_ip>:8000
+```
+
 Start the React application:
-bash
-Copy code
+```sh
 npm start
-Start Python APIs
+```
+
+### 5. Start Python APIs
 
 Navigate to the Python API directory:
-bash
-Copy code
+```sh
 cd HyphenView/Hyphen_api/app
+```
+
 Run the main API file:
-bash
-Copy code
+```sh
 python main.py
+```
+
 The APIs will start, and you will see logs similar to this:
-vbnet
-Copy code
+```sh
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-<p align="right">(<a href="#readme-top">back to top</a>)</p> <!-- USAGE -->
-Usage
-Access the application via the browser at:
-arduino
-Copy code
-http://<your_machine_ip>:3000
-<p align="right">(<a href="#readme-top">back to top</a>)</p> <!-- CONTRIBUTING -->
-Contributing
-Contributions are welcome! Please follow these steps:
+```
 
 Fork the repository.
 Create a feature branch:
