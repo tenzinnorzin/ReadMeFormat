@@ -52,14 +52,8 @@ Ensure you have the following installed:
 * Node.js (v20.5.0)
 * NPM (via Node.js)
 * NVM (Node Version Manager)
-  
-## Installation
-### 1. Clone the Repository
 
-  ```sh
-  git clone <repository_url>
-  cd HyphenView
-  ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 ## Installation
 ### 1. Clone the Repository
@@ -139,28 +133,4 @@ The APIs will start, and you will see logs similar to this:
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 ```
 
-Fork the repository.
-Create a feature branch:
-bash
-Copy code
-git checkout -b feature/YourFeature
-Commit your changes:
-bash
-Copy code
-git commit -m 'Add YourFeature'
-Push to the branch:
-bash
-Copy code
-git push origin feature/YourFeature
-Open a Pull Request.
-<p align="right">(<a href="#readme-top">back to top</a>)</p> <!-- LICENSE -->
-License
-Distributed under the MIT License. See LICENSE for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> <!-- CONTACT -->
-Contact
-Your Name - @your_username - email@example.com
-
-Project Link: https://github.com/your-repo
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> <!-- MARKDOWN LINKS & IMAGES -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
